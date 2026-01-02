@@ -1,28 +1,26 @@
-# FormBuilder
+# 📦 FormBuilder
+
 This project is a form builder app which gives users complete control over how and where their data is stored using built in APIs. Completely free and custom with no watermarks.
-
-# 📦 My Package
-
-(add your badges here)
 
 > *Your documentation is a direct reflection of your software, so hold it to the same standards.*
 
 
 ## 🌟 Highlights
 
-- Some functionality made easy!
-- This problem handled
-- etc.
+- Free Software
+- Unlimited Forms
+- Community Based Features
+- APIs for all data collected
+- Absolutely No Watermarks
 
 
 ## ℹ️ Overview
 
-A paragraph explaining your work, who you are, and why you made it.
-
+This form builder will allow users to build interactive forms which are completely customisable at a professional standard. This will give users to put their own label on their forms and handle data their own way. Out of the box, each form is stored in a table which is stored in a warehouse for each tenant using an S3 bucket. However, with APIs for everything, developers can store their data in their own data solution and opt out of locally stored data.
 
 ### ✍️ Authors
 
-Mention who you are and link to your GitHub or organization's website.
+Adam Merhi
 
 
 ## 🚀 Usage
@@ -34,19 +32,6 @@ Mention who you are and link to your GitHub or organization's website.
 >>> mypackage.do_stuff()
 'Oh yeah!'
 ```
-
-
-## ⬇️ Installation
-
-Simple, understandable installation instructions!
-
-```bash
-pip install my-package
-```
-
-And be sure to specify any other minimum requirements like Python versions or operating systems.
-
-*You may be inclined to add development instructions here, don't.*
 
 
 ## 💭 Feedback and Contributing
