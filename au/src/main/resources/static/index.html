@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Form Builder Demo</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Form Builder</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .field { margin-bottom: 10px; }
+  </style>
 </head>
 <body>
-<h1>Form Builder Demo</h1>
 
-<div id="builder">
-  <button onclick="addField('text')">Add Text Field</button>
-  <button onclick="addField('email')">Add Email Field</button>
-  <button onclick="addField('number')">Add Number Field</button>
-</div>
+<h1>Create a Form</h1>
 
-<h2>Form Preview</h2>
-<form id="demoForm"></form>
-<button onclick="submitForm()">Submit Form</button>
+<label>Form Name: <input type="text" id="formName"></label>
+<button type="button" id="addFieldBtn">Add Question</button>
 
-<h2>Output JSON</h2>
+<div id="fieldsContainer"></div>
+
+<button type="button" id="saveFormBtn">Save Form</button>
+
+<h2>Saved Form JSON</h2>
 <pre id="output"></pre>
 
-<script src="form.js"></script>
+<script src="formBuilder.js"></script>
 </body>
 </html>
